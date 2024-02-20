@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var commands = new[]
+            var options = new[]
             {
                 "biscuits",
                 "hello home",
@@ -14,10 +14,10 @@
                 "this is how you eat a biscuit"
             };
 
-            var commandStr = ConsoleUtility.ReadAutocomplete(commands);
+            var result = ConsoleUtility.ReadAutocomplete(options);
 
             Console.WriteLine();
-            Console.WriteLine($"Result: {commandStr}");
+            Console.WriteLine($"Result: {result}");
         }
     }
 }
