@@ -9,7 +9,7 @@
                 "biscuits",
                 "hello home",
                 "hello world",
-                "hello wombats form another world",
+                "hello wombats from another world",
                 "this is a test",
                 "this is how you eat a biscuit"
             };
